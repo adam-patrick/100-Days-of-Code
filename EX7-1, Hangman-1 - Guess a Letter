@@ -8,7 +8,7 @@ word_list = ["aardvark", "baboon", "camel"]
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 hangword = random.choice(word_list)
-letter = input("Guess a letter: ")
+letter = input("Guess a letter: ").lower()
 if hangword.find(letter) == True:
   print("Correct")
 else:
