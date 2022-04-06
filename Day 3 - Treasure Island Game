@@ -1,0 +1,34 @@
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+dir1 = input("You have entered a cave with two tunnels. Do you turn left or right? L , R \n")
+
+if dir1 != "L":
+  print("\nYou have fallen into a deep hole from which you can never escape. GAME OVER!")
+  exit()
+elif dir1 == "L":
+  dir2 = input("\nYou find yourself at a rapidly moving stream. Do you swim across or wait for it to slow down? S , W\n ")
+
+if dir2 != "W":
+  print("You are attacked by a swarm of fish, which devour you. GAME OVER!")
+  exit()
+elif dir2 == "W":
+  dir3 = input("\nYou enter into a room with three doors. One Red, One Yellow, and One Blue. Which door do you enter? R , B, Y \n")
+
+if dir3 == "R":
+  print("Fire bursts forth, incinerating you. GAME OVER!")
+  exit()
+elif dir3 == "Y":
+  print("You find yourself in a room with gold piled to the ceiling. Congratulations!")
+  exit()
+elif dir3 == "B":
+  print("Waiting on the other side of the door is a beast of horrors beyond your comprehension. A horrific death awaits you. GAME OVER!")
+  exit()
+else:
+  print("You made it this far only to fail. GAME OVER!")
+      
