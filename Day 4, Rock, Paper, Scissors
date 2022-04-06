@@ -1,0 +1,44 @@
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+#Write your code below this line 👇
+import random
+images = [rock, paper, scissors]
+PC = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+print("Player chooses " + images[PC])
+CC = random.randint(0,2)
+print("Computer chooses " + images[CC])
+
+if (PC == 0 and CC == 0) or (PC == 1 and CC == 1 or (PC == 2 and CC == 2)):
+  print("You tied. :| ")
+  exit()
+elif (PC == 0 and CC == 2) or (PC == 1 and CC == 0) or (PC == 2 and CC == 1):
+  print("You win! :D ")
+  exit()
+else:
+  print("You lose :( ")
+  exit()
