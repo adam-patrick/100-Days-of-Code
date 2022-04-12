@@ -100,6 +100,7 @@ while making_coffee:
     sufficient_resources(drink, 'coffee')
     again = input("Would you like another? Y or N? ")
     if again == "Y":
+        clear()
         continue
     else:
         making_coffee = False
