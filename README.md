@@ -33,3 +33,15 @@ Action Shot:
 ***
 
 
+## [Snake](https://github.com/adam-patrick/100-Days-of-Python/tree/Projects/Day%2020_21%20-%20Snake%20Game)
+
+A snake game, using Object Oriented Programming with Python and the Turtle Library.
+
+Gameplay Screenshot:
+
+![Snake](https://github.com/adam-patrick/100-Days-of-Python/blob/images/snakegamesample.PNG "Snake Screenshot")
+
+
+***
+
+
