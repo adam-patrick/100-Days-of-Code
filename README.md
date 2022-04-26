@@ -57,3 +57,15 @@ Gameplay Sample Image:
 ***
 
 
+## [Pomodoro Timer App](https://github.com/adam-patrick/100-Days-of-Python/tree/Projects/Day%2028%20-%20Pomodoro%20Timer)
+
+A timer than runs the pomodoro technique for managing time. Including dynamic typing, resets, breaks, and more, including an interactive GUI display/
+
+Sample Image:
+
+![Pom App](https://github.com/adam-patrick/100-Days-of-Python/blob/images/Day28pomodoro.PNG "Pom App")
+
+
+***
+
+
