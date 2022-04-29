@@ -4,7 +4,7 @@ Flash card app that uses Python and Pandas (for CSV file reading/editing). The a
 
 Sample Image:
 
-![Flash App] (https://github.com/adam-patrick/100-Days-of-Code/blob/images/flashsample.PNG "Flash App")
+![Flash App](https://github.com/adam-patrick/100-Days-of-Code/blob/images/flashsample.PNG "Flash App")
 
 
 ***
